@@ -7,14 +7,17 @@ Header.propTypes = {
 
 export default function Header({ initCities, setSearchResults }) {
   function handleChange(e) {
-    if (!e.target.value) return setSearchResults(initCities);
+    // set field value to lowercase
+    const targetValue = e.target.value.toLocaleLowerCase();
+
+    if (!targetValue) return setSearchResults(initCities);
 
     const resultsArray = initCities.filter(
       ({ Country, CountryAlpha3, City, Code }) =>
-        String(Country).toLocaleLowerCase().includes(e.target.value) ||
-        String(CountryAlpha3).toLocaleLowerCase().includes(e.target.value) ||
-        String(City).toLocaleLowerCase().includes(e.target.value) ||
-        String(Code).toLocaleLowerCase().includes(e.target.value)
+        String(Country).toLocaleLowerCase().includes(targetValue) ||
+        String(CountryAlpha3).toLocaleLowerCase().includes(targetValue) ||
+        String(City).toLocaleLowerCase().includes(targetValue) ||
+        String(Code).toLocaleLowerCase().includes(targetValue)
     );
 
     setSearchResults(resultsArray);

@@ -27,7 +27,7 @@ export default function Content({ searchResults }) {
               <tbody>{results}</tbody>
             </table>
           ) : (
-            <p>No matching results...</p>
+            <p className="no-results">Ooops! No matching results...</p>
           )}
         </div>
       </main>
