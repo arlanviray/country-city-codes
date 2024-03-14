@@ -903,6 +903,7 @@ export default [
     City: "Boston, MA",
     Country: "United States of America",
     Code: "BOS",
+    KouniTumlareCode: "BST",
   },
   {
     City: "Bozeman, MT",

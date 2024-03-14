@@ -6,7 +6,7 @@ Table.propTypes = {
 };
 
 export default function Table({
-  data: { Country, CountryAlpha2, CountryAlpha3, City, Code },
+  data: { Country, CountryAlpha2, CountryAlpha3, City, Code, KouniTumlareCode },
 }) {
   const mapUrl = String(`${City}+${Country}`)
     .replaceAll(",", "")
@@ -23,7 +23,15 @@ export default function Table({
         </div>
       </td>
       <td>{City}</td>
-      <td>{Code}</td>
+      <td>
+        {Code}
+        {KouniTumlareCode && (
+          <strong>
+            <br />
+            {KouniTumlareCode} (Kouni Tumlare code)
+          </strong>
+        )}
+      </td>
       <td>
         <a
           href={`https://www.google.com/maps/search/?api=1&query=${mapUrl}`}
