@@ -13,12 +13,12 @@ export default function Header({ initCities, setSearchResults }) {
     if (!targetValue) return setSearchResults(initCities);
 
     const resultsArray = initCities.filter(
-      ({ Country, CountryAlpha3, City, Code, KouniTumlareCode }) =>
-        String(Country).toLocaleLowerCase().includes(targetValue) ||
-        String(CountryAlpha3).toLocaleLowerCase().includes(targetValue) ||
-        String(City).toLocaleLowerCase().includes(targetValue) ||
-        String(Code).toLocaleLowerCase().includes(targetValue) ||
-        String(KouniTumlareCode).toLocaleLowerCase().includes(targetValue)
+      ({ country, iso3, city, code, kouni_tumlare_code }) =>
+        String(country).toLocaleLowerCase().includes(targetValue) ||
+        String(iso3).toLocaleLowerCase().includes(targetValue) ||
+        String(city).toLocaleLowerCase().includes(targetValue) ||
+        String(code).toLocaleLowerCase().includes(targetValue) ||
+        String(kouni_tumlare_code).toLocaleLowerCase().includes(targetValue)
     );
 
     setSearchResults(resultsArray);

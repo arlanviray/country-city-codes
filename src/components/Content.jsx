@@ -1,4 +1,7 @@
+import { useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import PropTypes from "prop-types";
+import Modal from "../helpers/Modal";
 import Table from "./Table";
 
 Content.propTypes = {
@@ -6,8 +9,16 @@ Content.propTypes = {
 };
 
 export default function Content({ searchResults }) {
+  const modalRef = useRef();
+  const [modalData, setModalData] = useState({});
+
+  const handleShowModal = (data) => {
+    modalRef.current.handleOpenModal();
+    setModalData(data);
+  };
+
   const results = searchResults.map((data, index) => (
-    <Table key={index} data={data} />
+    <Table key={index} data={data} handleShowModal={handleShowModal} />
   ));
 
   return (
@@ -21,6 +32,7 @@ export default function Content({ searchResults }) {
                   <th>Country</th>
                   <th>City</th>
                   <th>Code</th>
+                  <th>Stats</th>
                   <th></th>
                 </tr>
               </thead>
@@ -31,6 +43,8 @@ export default function Content({ searchResults }) {
           )}
         </div>
       </main>
+
+      {createPortal(<Modal ref={modalRef} data={modalData} />, document.body)}
     </>
   );
 }

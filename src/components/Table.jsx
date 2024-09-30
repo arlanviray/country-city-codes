@@ -3,12 +3,13 @@ import Flag from "./Flag";
 
 Table.propTypes = {
   data: PropTypes.object,
+  handleShowModal: PropTypes.func,
 };
 
-export default function Table({
-  data: { Country, CountryAlpha2, CountryAlpha3, City, Code, KouniTumlareCode },
-}) {
-  const mapUrl = String(`${City}+${Country}`)
+export default function Table({ data, handleShowModal }) {
+  const { id, country, iso2, city, code, kouni_tumlare_code } = data;
+
+  const mapUrl = String(`${city}+${country}`)
     .replaceAll(",", "")
     .replaceAll(".", "")
     .replaceAll(" ", "+");
@@ -16,28 +17,28 @@ export default function Table({
   return (
     <tr>
       <td>
-        {Country}
-        <div>
-          <span>{CountryAlpha2 && <Flag code={CountryAlpha2} />}</span>
-          <span className="roboto-light">{CountryAlpha3 && CountryAlpha3}</span>
-        </div>
+        {iso2 && <Flag code={iso2} />}
+        {country}
       </td>
-      <td>{City}</td>
+      <td>{city}</td>
       <td>
-        {Code}
-        {KouniTumlareCode && (
-          <strong>
+        {code}
+        {kouni_tumlare_code && (
+          <strong style={{ color: "red" }}>
             <br />
-            {KouniTumlareCode} (Kouni Tumlare code)
+            {kouni_tumlare_code} (Kouni)
           </strong>
         )}
+      </td>
+      <td>
+        <button onClick={() => handleShowModal(data)}>View {id}</button>
       </td>
       <td>
         <a
           href={`https://www.google.com/maps/search/?api=1&query=${mapUrl}`}
           target="_blank"
         >
-          Google Map
+          Map
         </a>
       </td>
     </tr>
