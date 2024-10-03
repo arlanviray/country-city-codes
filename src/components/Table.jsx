@@ -20,7 +20,12 @@ export default function Table({ data, handleShowModal }) {
         {iso2 && <Flag code={iso2} />}
         {country}
       </td>
-      <td>{city}</td>
+      <td>
+        {city}
+        {/* <div>
+          lat: {data.lat}, lng: {data.lng}
+        </div> */}
+      </td>
       <td>
         {code}
         {kouni_tumlare_code && (

@@ -1,19 +1,11 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react-refresh/only-export-components */
-import { forwardRef, useImperativeHandle } from "react";
+import { forwardRef, useEffect, useImperativeHandle, useState } from "react";
 import "./modal.scss";
 import Flag from "../components/Flag";
 
 const Modal = (props, ref) => {
-  const { data } = props;
-
-  const nowDate = new Date();
-  const formatter = new Intl.DateTimeFormat([], {
-    dateStyle: "long",
-    timeStyle: "short",
-    timeZone: data.timezone,
-  });
-  const formattedDate = formatter.format(nowDate);
+  const { data, timezone, weather } = props;
 
   useImperativeHandle(ref, () => ({
     handleOpenModal() {
@@ -29,14 +21,21 @@ const Modal = (props, ref) => {
     <dialog data-modal>
       <div className="modal-container">
         <div className="modal-title">
-          {data.iso2 && <Flag code={data.iso2} />}
-          {data.country}
+          {data.country && (
+            <>
+              <Flag code={data.iso2} />
+              {data.country}
+              <p>{data.iso3}</p>
+            </>
+          )}
         </div>
         <div className="modal-body">
-          <p>
-            <strong>City:</strong> {data.city}
-            <span>({data.code})</span>
-          </p>
+          {data.city && (
+            <p>
+              <strong>City:</strong> {data.city}
+              <span>({data.code})</span>
+            </p>
+          )}
 
           {data.currency_name && (
             <p>
@@ -48,13 +47,33 @@ const Modal = (props, ref) => {
           {data.languages && (
             <p>
               <strong>Languages:</strong>{" "}
-              {data.languages.map((language) => `${language}, `)}
+              {data.languages.map(
+                (language, i) =>
+                  language + (i + 1 < data.languages.length ? ", " : ".")
+              )}
             </p>
           )}
 
-          {data.timezone && (
+          {timezone && (
             <p className="timezone">
-              <strong>Timezone:</strong> {formattedDate}
+              <strong>Timezone:</strong> {timezone}
+            </p>
+          )}
+
+          {weather.temp ? (
+            <div className="weather">
+              <img
+                src={`http://openweathermap.org/img/w/${weather.icon}.png`}
+              />
+              <div>
+                <strong>{weather.temp}</strong>
+                <br />
+                <span>{weather.desc}</span>
+              </div>
+            </div>
+          ) : (
+            <p>
+              <span>Currently no available weather stat for this city!</span>
             </p>
           )}
         </div>

@@ -2,10 +2,10 @@ import { useState } from "react";
 import Content from "./components/Content";
 import Header from "./components/Header";
 import CITY_CODES from "./data-city-codes";
+import CITY_LAT_LNG from "./data-city-lat-lng";
 import COUNTRY_CODES from "./data-country-codes";
 import COUNTRY_TIMEZONE from "./data-country-timezone";
-import COUNTRY_CURRENCY_NAME from "./data-country-currency-name";
-import COUNTRY_CURRENCY_CODE from "./data-country-currency-code";
+import COUNTRY_CURRENCY from "./data-country-currency";
 import COUNTRY_LANGUAGES from "./data-country-languages";
 
 // add data to City Codes
@@ -14,6 +14,10 @@ import COUNTRY_LANGUAGES from "./data-country-languages";
 // - curreny name and code
 // - languages
 CITY_CODES.map((city) => {
+  const cityLatLng = CITY_LAT_LNG.find((latlng) => latlng.city === city.city);
+  city["lat"] = cityLatLng ? cityLatLng.lat : undefined;
+  city["lng"] = cityLatLng ? cityLatLng.lng : undefined;
+
   const countryCodes = COUNTRY_CODES.find(
     (country) => country.country === city.country
   );
@@ -28,18 +32,14 @@ CITY_CODES.map((city) => {
   city["utc"] = countryTimezone ? countryTimezone.utc : undefined;
   city["timezone"] = countryTimezone ? countryTimezone.timezone : undefined;
 
-  const countryCurrencyName = COUNTRY_CURRENCY_NAME.find(
+  const countryCurrency = COUNTRY_CURRENCY.find(
     (country) => country.country === city.country
   );
-  city["currency_name"] = countryCurrencyName
-    ? countryCurrencyName.currency_name
+  city["currency_name"] = countryCurrency
+    ? countryCurrency.currency_name
     : undefined;
-
-  const countryCurrencyCode = COUNTRY_CURRENCY_CODE.find(
-    (country) => country.country === city.country
-  );
-  city["currency_code"] = countryCurrencyCode
-    ? countryCurrencyCode.currency_code
+  city["currency_code"] = countryCurrency
+    ? countryCurrency.currency_code
     : undefined;
 
   const countryLanguages = COUNTRY_LANGUAGES.find(
@@ -50,7 +50,7 @@ CITY_CODES.map((city) => {
 
 function App() {
   const [searchResults, setSearchResults] = useState(CITY_CODES);
-  // console.log(searchResults);
+  console.log(searchResults);
 
   return (
     <>

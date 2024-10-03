@@ -11,10 +11,38 @@ Content.propTypes = {
 export default function Content({ searchResults }) {
   const modalRef = useRef();
   const [modalData, setModalData] = useState({});
+  const [modalTimezone, setModalTimezone] = useState("");
+  const [modalWeather, setModalWeather] = useState({});
 
   const handleShowModal = (data) => {
     modalRef.current.handleOpenModal();
     setModalData(data);
+
+    // timezone: date and time
+    const nowDate = new Date();
+    const formatter = new Intl.DateTimeFormat([], {
+      dateStyle: "long",
+      timeStyle: "short",
+      timeZone: data.timezone,
+    });
+    setModalTimezone(formatter.format(nowDate));
+
+    // weather: temperature, description, icon
+    const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${data.lat}&lon=${data.lng}&units=metric&appid=c5baa00af2bfbc51b5a8bff68a069bb0`;
+    fetch(weatherUrl)
+      .then((response) => response.json())
+      .then((data) => {
+        setModalWeather({
+          temp: `${data.main.temp}°C`,
+          main: data.weather[0].main,
+          desc: data.weather[0].description,
+          icon: data.weather[0].icon,
+        });
+      })
+      .catch((error) => {
+        console.log(error);
+        setModalWeather({});
+      });
   };
 
   const results = searchResults.map((data, index) => (
@@ -44,7 +72,15 @@ export default function Content({ searchResults }) {
         </div>
       </main>
 
-      {createPortal(<Modal ref={modalRef} data={modalData} />, document.body)}
+      {createPortal(
+        <Modal
+          ref={modalRef}
+          data={modalData}
+          timezone={modalTimezone}
+          weather={modalWeather}
+        />,
+        document.body
+      )}
     </>
   );
 }

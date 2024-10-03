@@ -5,11 +5,6 @@ export default [
     code: "AAL",
   },
   {
-    city: "Alesund",
-    country: "Norway",
-    code: "AES",
-  },
-  {
     city: "Aarhus",
     country: "Denmark",
     code: "AAR",
@@ -158,6 +153,11 @@ export default [
     city: "Albury, N.S.W.",
     country: "Australia",
     code: "ABX",
+  },
+  {
+    city: "Alesund",
+    country: "Norway",
+    code: "AES",
   },
   {
     city: "Alexandria",
@@ -750,14 +750,14 @@ export default [
     code: "SXF",
   },
   {
-    city: "Berlin, Tempelhof Airport",
-    country: "Germany",
-    code: "THF",
-  },
-  {
     city: "Berlin, Tegel Airport",
     country: "Germany",
     code: "TXL",
+  },
+  {
+    city: "Berlin, Tempelhof Airport",
+    country: "Germany",
+    code: "THF",
   },
   {
     city: "Berne",
@@ -1391,11 +1391,6 @@ export default [
     code: "CME",
   },
   {
-    city: "Ciudad del Este",
-    country: "Paraguay",
-    code: "AGT",
-  },
-  {
     city: "Ciudad Juarez",
     country: "Mexico",
     code: "CJS",
@@ -1409,6 +1404,11 @@ export default [
     city: "Ciudad Victoria",
     country: "Mexico",
     code: "CVM",
+  },
+  {
+    city: "Ciudad del Este",
+    country: "Paraguay",
+    code: "AGT",
   },
   {
     city: "Clarksburg, WV",
@@ -1621,14 +1621,14 @@ export default [
     code: "DLC",
   },
   {
-    city: "Dallas, TX",
-    country: "United States of America",
-    code: "DAL",
-  },
-  {
     city: "Dallas, Fort Worth International Airport",
     country: "United States of America",
     code: "DFW",
+  },
+  {
+    city: "Dallas, TX",
+    country: "United States of America",
+    code: "DAL",
   },
   {
     city: "Damascus",
@@ -2716,14 +2716,14 @@ export default [
     code: "EFD",
   },
   {
-    city: "Houston, William P. Hobby Airport",
-    country: "United States of America",
-    code: "HOU",
-  },
-  {
     city: "Houston, George Bush Intercontinental Airport",
     country: "United States of America",
     code: "IAH",
+  },
+  {
+    city: "Houston, William P. Hobby Airport",
+    country: "United States of America",
+    code: "HOU",
   },
   {
     city: "Hualien",
@@ -2936,14 +2936,14 @@ export default [
     code: "OAJ",
   },
   {
-    city: "Jakarta, Soekarno–Hatta International Airport",
-    country: "Indonesia",
-    code: "CGK",
-  },
-  {
     city: "Jakarta, Java",
     country: "Indonesia",
     code: "JKT - All Airports",
+  },
+  {
+    city: "Jakarta, Soekarno–Hatta International Airport",
+    country: "Indonesia",
+    code: "CGK",
   },
   {
     city: "Jalapa",
@@ -3756,6 +3756,11 @@ export default [
     code: "LFW",
   },
   {
+    city: "London",
+    country: "England",
+    code: "LON - All Airports",
+  },
+  {
     city: "London, City Airport",
     country: "England",
     code: "LCY",
@@ -3771,19 +3776,14 @@ export default [
     code: "LHR",
   },
   {
-    city: "London",
-    country: "England",
-    code: "LON - All Airports",
+    city: "London, ON",
+    country: "Canada",
+    code: "YXU",
   },
   {
     city: "London, Stansted Airport",
     country: "England",
     code: "STN",
-  },
-  {
-    city: "London, ON",
-    country: "Canada",
-    code: "YXU",
   },
   {
     city: "Londonderry",
@@ -4171,14 +4171,14 @@ export default [
     code: "YXH",
   },
   {
-    city: "Melbourne, FL",
-    country: "United States of America",
-    code: "MLB",
-  },
-  {
     city: "Melbourne, Avalon Airport",
     country: "Australia",
     code: "AVV",
+  },
+  {
+    city: "Melbourne, FL",
+    country: "United States of America",
+    code: "MLB",
   },
   {
     city: "Melbourne, VIC",
@@ -4256,14 +4256,14 @@ export default [
     code: "JMK",
   },
   {
-    city: "Milan, Linate Airport",
-    country: "Italy",
-    code: "LIN",
-  },
-  {
     city: "Milan",
     country: "Italy",
     code: "MIL - All",
+  },
+  {
+    city: "Milan, Linate Airport",
+    country: "Italy",
+    code: "LIN",
   },
   {
     city: "Milan, Malpensa Airport",
@@ -4411,14 +4411,14 @@ export default [
     code: "MPL",
   },
   {
-    city: "Montreal, YMQ",
-    country: "Canada",
-    code: "YMQ",
-  },
-  {
     city: "Montreal, Trudeau International Airport",
     country: "Canada",
     code: "YUL",
+  },
+  {
+    city: "Montreal, YMQ",
+    country: "Canada",
+    code: "YMQ",
   },
   {
     city: "Montrose, CO",
@@ -4576,14 +4576,14 @@ export default [
     code: "NGS",
   },
   {
-    city: "Nagoya, Chubu Centrair International Airport",
-    country: "Japan",
-    code: "NGO",
-  },
-  {
     city: "Nagoya, Airport",
     country: "Japan",
     code: "NKM",
+  },
+  {
+    city: "Nagoya, Chubu Centrair International Airport",
+    country: "Japan",
+    code: "NGO",
   },
   {
     city: "Naha, Okinawa",
@@ -4836,14 +4836,14 @@ export default [
     code: "NKC",
   },
   {
-    city: "Noumea, Noumea Magenta Airport",
-    country: "New Caledonia",
-    code: "GEA",
-  },
-  {
     city: "Noumea",
     country: "New Caledonia",
     code: "NOU",
+  },
+  {
+    city: "Noumea, Noumea Magenta Airport",
+    country: "New Caledonia",
+    code: "GEA",
   },
   {
     city: "Novosibirsk, Siberia",
@@ -4966,6 +4966,11 @@ export default [
     code: "OER",
   },
   {
+    city: "Osaka",
+    country: "Japan",
+    code: "OSA - All Airports",
+  },
+  {
     city: "Osaka, International Airport",
     country: "Japan",
     code: "ITM",
@@ -4974,11 +4979,6 @@ export default [
     city: "Osaka, Kansai International Airport",
     country: "Japan",
     code: "KIX",
-  },
-  {
-    city: "Osaka",
-    country: "Japan",
-    code: "OSA - All Airports",
   },
   {
     city: "Oshkosh, WI",
@@ -5121,6 +5121,11 @@ export default [
     code: "PBM",
   },
   {
+    city: "Paris",
+    country: "France",
+    code: "PAR -All",
+  },
+  {
     city: "Paris, Charles de Gaulle Airport",
     country: "France",
     code: "CDG",
@@ -5129,11 +5134,6 @@ export default [
     city: "Paris, Orly Airport",
     country: "France",
     code: "ORY",
-  },
-  {
-    city: "Paris",
-    country: "France",
-    code: "PAR -All",
   },
   {
     city: "Parkersburg, WV",
@@ -5336,14 +5336,14 @@ export default [
     code: "POM",
   },
   {
-    city: "Port of Spain",
-    country: "Trinidad and Tobago",
-    code: "POS",
-  },
-  {
     city: "Port Vila, Efate Island",
     country: "Vanuatu",
     code: "VLI",
+  },
+  {
+    city: "Port of Spain",
+    country: "Trinidad and Tobago",
+    code: "POS",
   },
   {
     city: "Port-au-Prince",
@@ -5456,11 +5456,6 @@ export default [
     code: "PUB",
   },
   {
-    city: "Puerto del Rosario, Fuerteventura Island",
-    country: "Canary Islands",
-    code: "FUE",
-  },
-  {
     city: "Puerto Escondido",
     country: "Mexico",
     code: "PXM",
@@ -5484,6 +5479,11 @@ export default [
     city: "Puerto Vallarta",
     country: "Mexico",
     code: "PVR",
+  },
+  {
+    city: "Puerto del Rosario, Fuerteventura Island",
+    country: "Canary Islands",
+    code: "FUE",
   },
   {
     city: "Pullman, WA",
@@ -5626,11 +5626,6 @@ export default [
     code: "RNO",
   },
   {
-    city: "Reykjavik, International Airport",
-    country: "Iceland",
-    code: "KEF",
-  },
-  {
     city: "Reykjavik",
     country: "Iceland",
     code: "REK - All Airports",
@@ -5639,6 +5634,11 @@ export default [
     city: "Reykjavik, Domestic Airport",
     country: "Iceland",
     code: "RKV",
+  },
+  {
+    city: "Reykjavik, International Airport",
+    country: "Iceland",
+    code: "KEF",
   },
   {
     city: "Reynosa",
@@ -5671,14 +5671,14 @@ export default [
     code: "RMI",
   },
   {
-    city: "Rio de Janeiro, Galeao International Airport",
-    country: "Brazil",
-    code: "GIG",
-  },
-  {
     city: "Rio de Janeiro",
     country: "Brazil",
     code: "RIO - All Airports",
+  },
+  {
+    city: "Rio de Janeiro, Galeao International Airport",
+    country: "Brazil",
+    code: "GIG",
   },
   {
     city: "Rio de Janeiro, Santos Dumont Airport",
@@ -5751,6 +5751,11 @@ export default [
     code: "RMA",
   },
   {
+    city: "Rome",
+    country: "Italy",
+    code: "ROM-All",
+  },
+  {
     city: "Rome, Giovan Battista Pastine International Airport",
     country: "Italy",
     code: "CIA",
@@ -5759,11 +5764,6 @@ export default [
     city: "Rome, Leonardo da Vinci-Fiumicino Airport",
     country: "Italy",
     code: "FCO",
-  },
-  {
-    city: "Rome",
-    country: "Italy",
-    code: "ROM-All",
   },
   {
     city: "Ronne",
@@ -5851,9 +5851,49 @@ export default [
     code: "MBS",
   },
   {
+    city: "Saint Cloud, MN",
+    country: "United States of America",
+    code: "STC",
+  },
+  {
+    city: "Saint George's",
+    country: "Grenada",
+    code: "GND",
+  },
+  {
+    city: "Saint George, UT",
+    country: "United States of America",
+    code: "SGU",
+  },
+  {
+    city: "Saint John's",
+    country: "Antigua",
+    code: "ANU",
+  },
+  {
+    city: "Saint John's, NF",
+    country: "Canada",
+    code: "YYT",
+  },
+  {
     city: "Saint John, NB",
     country: "Canada",
     code: "YSJ",
+  },
+  {
+    city: "Saint Louis, MO",
+    country: "United States of America",
+    code: "STL",
+  },
+  {
+    city: "Saint Petersburg",
+    country: "Russia",
+    code: "LED",
+  },
+  {
+    city: "Saint Petersburg, FL",
+    country: "United States of America",
+    code: "PIE",
   },
   {
     city: "Saint-Denis",
@@ -6076,6 +6116,11 @@ export default [
     code: "SJP",
   },
   {
+    city: "Sao Paulo",
+    country: "Brazil",
+    code: "SAO - All Airports",
+  },
+  {
     city: "Sao Paulo, Congonhas Airport",
     country: "Brazil",
     code: "CGH",
@@ -6084,11 +6129,6 @@ export default [
     city: "Sao Paulo, Guarulhos International Airport",
     country: "Brazil",
     code: "GRU",
-  },
-  {
-    city: "Sao Paulo",
-    country: "Brazil",
-    code: "SAO - All Airports",
   },
   {
     city: "Sapporo, New Chitose Airport",
@@ -6176,14 +6216,14 @@ export default [
     code: "SVQ",
   },
   {
-    city: "Shanghai, Pudong International Airport",
-    country: "China",
-    code: "PVG",
-  },
-  {
     city: "Shanghai",
     country: "China",
     code: "SHA",
+  },
+  {
+    city: "Shanghai, Pudong International Airport",
+    country: "China",
+    code: "PVG",
   },
   {
     city: "Shannon",
@@ -6356,46 +6396,6 @@ export default [
     code: "VSF",
   },
   {
-    city: "Saint Cloud, MN",
-    country: "United States of America",
-    code: "STC",
-  },
-  {
-    city: "Saint George, UT",
-    country: "United States of America",
-    code: "SGU",
-  },
-  {
-    city: "Saint George's",
-    country: "Grenada",
-    code: "GND",
-  },
-  {
-    city: "Saint John's",
-    country: "Antigua",
-    code: "ANU",
-  },
-  {
-    city: "Saint John's, NF",
-    country: "Canada",
-    code: "YYT",
-  },
-  {
-    city: "Saint Louis, MO",
-    country: "United States of America",
-    code: "STL",
-  },
-  {
-    city: "Saint Petersburg",
-    country: "Russia",
-    code: "LED",
-  },
-  {
-    city: "Saint Petersburg, FL",
-    country: "United States of America",
-    code: "PIE",
-  },
-  {
     city: "State College, PA",
     country: "United States of America",
     code: "SCE",
@@ -6416,6 +6416,11 @@ export default [
     code: "SML",
   },
   {
+    city: "Stockholm",
+    country: "Sweden",
+    code: "STO-All",
+  },
+  {
     city: "Stockholm, Arlanda Airport",
     country: "Sweden",
     code: "ARN",
@@ -6424,11 +6429,6 @@ export default [
     city: "Stockholm, Bromma Stockholm Airport",
     country: "Sweden",
     code: "BMA",
-  },
-  {
-    city: "Stockholm",
-    country: "Sweden",
-    code: "STO-All",
   },
   {
     city: "Stornoway, Isle of Lewis",
@@ -6751,6 +6751,11 @@ export default [
     code: "OOK",
   },
   {
+    city: "Tokyo",
+    country: "Japan",
+    code: "TYO - All Airports",
+  },
+  {
     city: "Tokyo, Haneda Airport",
     country: "Japan",
     code: "HND",
@@ -6759,11 +6764,6 @@ export default [
     city: "Tokyo, Narita International Airport",
     country: "Japan",
     code: "NRT",
-  },
-  {
-    city: "Tokyo",
-    country: "Japan",
-    code: "TYO - All Airports",
   },
   {
     city: "Toledo, OH",
@@ -6786,14 +6786,14 @@ export default [
     code: "TOP",
   },
   {
-    city: "Toronto, Pearson International Airport",
-    country: "Canada",
-    code: "YTO - All Airports",
-  },
-  {
     city: "Toronto, Billy Bishop Toronto City Airport",
     country: "Canada",
     code: "YTZ",
+  },
+  {
+    city: "Toronto, Pearson International Airport",
+    country: "Canada",
+    code: "YTO - All Airports",
   },
   {
     city: "Torreon",
