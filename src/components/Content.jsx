@@ -39,8 +39,8 @@ export default function Content({ searchResults }) {
           icon: data.weather[0].icon,
         });
       })
-      .catch((error) => {
-        console.log(error);
+      .catch((err) => {
+        console.error("Error fetching data:", err);
         setModalWeather({});
       });
   };

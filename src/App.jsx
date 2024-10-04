@@ -50,7 +50,7 @@ CITY_CODES.map((city) => {
 
 function App() {
   const [searchResults, setSearchResults] = useState(CITY_CODES);
-  console.log(searchResults);
+  // console.log(searchResults);
 
   return (
     <>

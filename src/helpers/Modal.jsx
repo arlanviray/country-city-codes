@@ -63,7 +63,7 @@ const Modal = (props, ref) => {
           {weather.temp ? (
             <div className="weather">
               <img
-                src={`http://openweathermap.org/img/w/${weather.icon}.png`}
+                src={`https://openweathermap.org/img/w/${weather.icon}.png`}
               />
               <div>
                 <strong>{weather.temp}</strong>
