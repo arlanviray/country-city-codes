@@ -1329,8 +1329,8 @@ export default [
   {
     city: "Calvi, Corsica",
     country: "France",
-    lat: undefined,
-    lng: undefined,
+    lat: 42.5677,
+    lng: 8.7572,
   },
   {
     city: "Campbell River, BC",
@@ -1365,8 +1365,8 @@ export default [
   {
     city: "Cap-aux-Meules, Magdalens Islands, PQ",
     country: "Canada",
-    lat: undefined,
-    lng: undefined,
+    lat: 47.3777,
+    lng: 61.8714,
   },
   {
     city: "Cape Girardeau, MO",
@@ -1581,8 +1581,8 @@ export default [
   {
     city: "Chibougamau, PQ",
     country: "Canada",
-    lat: undefined,
-    lng: undefined,
+    lat: 49.913231,
+    lng: -74.369202,
   },
   {
     city: "Chicago, IL",
@@ -1641,14 +1641,14 @@ export default [
   {
     city: "Christiansted, Saint Croix",
     country: "U.S. Virgin Islands",
-    lat: undefined,
-    lng: undefined,
+    lat: 17.746639,
+    lng: -64.703201,
   },
   {
     city: "Churchill, MB",
     country: "Canada",
-    lat: undefined,
-    lng: undefined,
+    lat: 58.7667,
+    lng: -94.1667,
   },
   {
     city: "Cincinnati, OH",
@@ -1821,14 +1821,14 @@ export default [
   {
     city: "Connaught",
     country: "Ireland",
-    lat: undefined,
-    lng: undefined,
+    lat: 53.8376,
+    lng: 8.9584,
   },
   {
     city: "Coober Pedy, S.A.",
     country: "Australia",
-    lat: undefined,
-    lng: undefined,
+    lat: -29.013849,
+    lng: 134.75325,
   },
   {
     city: "Copenhagen",
@@ -2031,8 +2031,8 @@ export default [
   {
     city: "Deer Lake, NF",
     country: "Canada",
-    lat: undefined,
-    lng: undefined,
+    lat: 49.1852,
+    lng: 57.4184,
   },
   {
     city: "Delhi",
@@ -2763,8 +2763,8 @@ export default [
   {
     city: "Gove, N.T.",
     country: "Australia",
-    lat: undefined,
-    lng: undefined,
+    lat: 12.3333,
+    lng: 136.8167,
   },
   {
     city: "Governor's Harbour, Eleuthera Island",
@@ -3129,8 +3129,8 @@ export default [
   {
     city: "Hemavan",
     country: "Sweden",
-    lat: undefined,
-    lng: undefined,
+    lat: 65.8149,
+    lng: 15.0877,
   },
   {
     city: "Hengchun",
@@ -3141,8 +3141,8 @@ export default [
   {
     city: "Heraklion, Crete",
     country: "Greece",
-    lat: undefined,
-    lng: undefined,
+    lat: 35.3387,
+    lng: 25.1442,
   },
   {
     city: "Hermosillo",
@@ -3237,8 +3237,8 @@ export default [
   {
     city: "Horn Island, Qld.",
     country: "Australia",
-    lat: undefined,
-    lng: undefined,
+    lat: 10.6116,
+    lng: 142.2869,
   },
   {
     city: "Hot Springs, AR",
@@ -3285,8 +3285,8 @@ export default [
   {
     city: "Humberside",
     country: "England",
-    lat: undefined,
-    lng: undefined,
+    lat: 53.5755,
+    lng: 0.3502,
   },
   {
     city: "Huntington, WV",
@@ -3345,8 +3345,8 @@ export default [
   {
     city: "Ikaria Island",
     country: "Greece",
-    lat: undefined,
-    lng: undefined,
+    lat: 37.5967,
+    lng: 26.1123,
   },
   {
     city: "Iloilo",
@@ -3381,8 +3381,8 @@ export default [
   {
     city: "Inverness",
     country: "Scotland",
-    lat: undefined,
-    lng: undefined,
+    lat: 57.4778,
+    lng: 4.2247,
   },
   {
     city: "Inyokern, CA",
@@ -3435,8 +3435,8 @@ export default [
   {
     city: "Islay Island",
     country: "Scotland",
-    lat: undefined,
-    lng: undefined,
+    lat: 55.7363,
+    lng: 6.1771,
   },
   {
     city: "Islip, NY",
@@ -3465,14 +3465,14 @@ export default [
   {
     city: "Ivalo",
     country: "Finland",
-    lat: undefined,
-    lng: undefined,
+    lat: 68.6576,
+    lng: 27.5397,
   },
   {
     city: "Iwami",
     country: "Japan",
-    lat: undefined,
-    lng: undefined,
+    lat: 35.5759,
+    lng: 134.3321,
   },
   {
     city: "Ixtapa",
@@ -3567,8 +3567,8 @@ export default [
   {
     city: "Jerez de La Frontera",
     country: "Spain",
-    lat: undefined,
-    lng: undefined,
+    lat: 36.685,
+    lng: 6.1261,
   },
   {
     city: "Jersey",
@@ -3897,8 +3897,8 @@ export default [
   {
     city: "Kingscote, Kangaroo Island, S.A.",
     country: "Australia",
-    lat: undefined,
-    lng: undefined,
+    lat: 35.6533,
+    lng: 137.638,
   },
   {
     city: "Kingston",
@@ -3939,8 +3939,8 @@ export default [
   {
     city: "Kirkwall, Orkney Islands",
     country: "Scotland",
-    lat: undefined,
-    lng: undefined,
+    lat: 58.9847,
+    lng: 2.9622,
   },
   {
     city: "Kiruna",
@@ -3957,8 +3957,8 @@ export default [
   {
     city: "Kittila",
     country: "Finland",
-    lat: undefined,
-    lng: undefined,
+    lat: 67.6507,
+    lng: 24.9158,
   },
   {
     city: "Klagenfurt",
@@ -4053,8 +4053,8 @@ export default [
   {
     city: "Kramfors",
     country: "Sweden",
-    lat: undefined,
-    lng: undefined,
+    lat: 62.9284,
+    lng: 17.7863,
   },
   {
     city: "Kristiansand",
@@ -4131,8 +4131,8 @@ export default [
   {
     city: "La Coruna",
     country: "Spain",
-    lat: undefined,
-    lng: undefined,
+    lat: 43.362343,
+    lng: -8.41154,
   },
   {
     city: "La Crosse, WI",
@@ -4203,8 +4203,8 @@ export default [
   {
     city: "Lamezia Terme",
     country: "Italy",
-    lat: undefined,
-    lng: undefined,
+    lat: 38.9747,
+    lng: 16.3183,
   },
   {
     city: "Lanai City, Lanai, HI",
@@ -4323,8 +4323,8 @@ export default [
   {
     city: "Leeds",
     country: "England",
-    lat: undefined,
-    lng: undefined,
+    lat: 53.801277,
+    lng: -1.548567,
   },
   {
     city: "Legaspi",
@@ -4353,8 +4353,8 @@ export default [
   {
     city: "Lerwick, Shetland Islands",
     country: "Scotland",
-    lat: undefined,
-    lng: undefined,
+    lat: 60.1532,
+    lng: 1.148,
   },
   {
     city: "Lethbridge, AB",
@@ -4485,8 +4485,8 @@ export default [
   {
     city: "Liverpool",
     country: "England",
-    lat: undefined,
-    lng: undefined,
+    lat: 53.4084,
+    lng: 2.9916,
   },
   {
     city: "Ljubljana",
@@ -4509,26 +4509,26 @@ export default [
   {
     city: "London",
     country: "England",
-    lat: undefined,
-    lng: undefined,
+    lat: 51.5072,
+    lng: 0.1276,
   },
   {
     city: "London, City Airport",
     country: "England",
-    lat: undefined,
-    lng: undefined,
+    lat: 51.5048,
+    lng: 0.0495,
   },
   {
     city: "London, Gatwick Airport",
     country: "England",
-    lat: undefined,
-    lng: undefined,
+    lat: 51.153629,
+    lng: -0.182152,
   },
   {
     city: "London, Heathrow Airport",
     country: "England",
-    lat: undefined,
-    lng: undefined,
+    lat: 51.47002,
+    lng: -0.454295,
   },
   {
     city: "London, ON",
@@ -4539,8 +4539,8 @@ export default [
   {
     city: "London, Stansted Airport",
     country: "England",
-    lat: undefined,
-    lng: undefined,
+    lat: 51.8864,
+    lng: 0.2413,
   },
   {
     city: "Londonderry",
@@ -4575,8 +4575,8 @@ export default [
   {
     city: "Longyearbyen, Svalbard",
     country: "Norway",
-    lat: undefined,
-    lng: undefined,
+    lat: 78.2232,
+    lng: 15.6267,
   },
   {
     city: "Loreto",
@@ -4671,8 +4671,8 @@ export default [
   {
     city: "Luton",
     country: "England",
-    lat: undefined,
-    lng: undefined,
+    lat: 51.8787,
+    lng: 0.42,
   },
   {
     city: "Luxembourg",
@@ -4737,8 +4737,8 @@ export default [
   {
     city: "Magdalens Islands, PQ",
     country: "Canada",
-    lat: undefined,
-    lng: undefined,
+    lat: 47.3824,
+    lng: 61.8843,
   },
   {
     city: "Mahebourg",
@@ -4809,8 +4809,8 @@ export default [
   {
     city: "Manchester",
     country: "England",
-    lat: undefined,
-    lng: undefined,
+    lat: 53.483959,
+    lng: -2.244644,
   },
   {
     city: "Manchester, NH",
@@ -4857,8 +4857,8 @@ export default [
   {
     city: "Mao, Minorca",
     country: "Spain",
-    lat: undefined,
-    lng: undefined,
+    lat: 39.9148,
+    lng: 4.2231,
   },
   {
     city: "Maputo",
@@ -5025,8 +5025,8 @@ export default [
   {
     city: "Melilla",
     country: "Spain",
-    lat: undefined,
-    lng: undefined,
+    lat: 35.292522,
+    lng: -2.936471,
   },
   {
     city: "Memanbetsu",
@@ -5103,8 +5103,8 @@ export default [
   {
     city: "Mikonos",
     country: "Greece",
-    lat: undefined,
-    lng: undefined,
+    lat: 37.4415,
+    lng: 25.3667,
   },
   {
     city: "Milan",
@@ -5253,8 +5253,8 @@ export default [
   {
     city: "Mont-Joli, PQ",
     country: "Canada",
-    lat: undefined,
-    lng: undefined,
+    lat: 48.580002,
+    lng: -68.18,
   },
   {
     city: "Montego Bay",
@@ -5343,8 +5343,8 @@ export default [
   {
     city: "Moruya, N.S.W.",
     country: "Australia",
-    lat: undefined,
-    lng: undefined,
+    lat: 35.9056,
+    lng: 150.0818,
   },
   {
     city: "Moscow",
@@ -5463,8 +5463,8 @@ export default [
   {
     city: "Mytilene, Lesbos Island",
     country: "Greece",
-    lat: undefined,
-    lng: undefined,
+    lat: 39.1067,
+    lng: 26.5573,
   },
   {
     city: "N'Djamena",
@@ -5595,8 +5595,8 @@ export default [
   {
     city: "Narrandera, N.S.W.",
     country: "Australia",
-    lat: undefined,
-    lng: undefined,
+    lat: 34.7479,
+    lng: 146.5504,
   },
   {
     city: "Narvik",
@@ -5697,8 +5697,8 @@ export default [
   {
     city: "Newcastle",
     country: "England",
-    lat: undefined,
-    lng: undefined,
+    lat: 54.9783,
+    lng: 1.6178,
   },
   {
     city: "Newcastle, N.S.W.",
@@ -5793,8 +5793,8 @@ export default [
   {
     city: "Norwich",
     country: "England",
-    lat: undefined,
-    lng: undefined,
+    lat: 52.6293,
+    lng: 1.2979,
   },
   {
     city: "Nouakchott",
@@ -5895,8 +5895,8 @@ export default [
   {
     city: "Olympic Dam, S.A.",
     country: "Australia",
-    lat: undefined,
-    lng: undefined,
+    lat: 30.4466,
+    lng: 136.8714,
   },
   {
     city: "Omaha, NE",
@@ -6063,8 +6063,8 @@ export default [
   {
     city: "Pajala",
     country: "Sweden",
-    lat: undefined,
-    lng: undefined,
+    lat: 67.2128,
+    lng: 23.3674,
   },
   {
     city: "Palembang, Sumatra",
@@ -6135,8 +6135,8 @@ export default [
   {
     city: "Paraburdoo, W.A.",
     country: "Australia",
-    lat: undefined,
-    lng: undefined,
+    lat: 23.2007,
+    lng: 117.6715,
   },
   {
     city: "Paramaribo",
@@ -6375,8 +6375,8 @@ export default [
   {
     city: "Port Hardy, BC",
     country: "Canada",
-    lat: undefined,
-    lng: undefined,
+    lat: 50.7207,
+    lng: 127.4969,
   },
   {
     city: "Port Hedland, W.A.",
@@ -6627,8 +6627,8 @@ export default [
   {
     city: "Quebec, PQ",
     country: "Canada",
-    lat: undefined,
-    lng: undefined,
+    lat: 46.8131,
+    lng: 71.2075,
   },
   {
     city: "Queenstown",
@@ -6687,8 +6687,8 @@ export default [
   {
     city: "Rankin Inlet, NWT",
     country: "Canada",
-    lat: undefined,
-    lng: undefined,
+    lat: 62.808375,
+    lng: -92.0852853,
   },
   {
     city: "Ranong",
@@ -6711,8 +6711,8 @@ export default [
   {
     city: "Red Lake, ON",
     country: "Canada",
-    lat: undefined,
-    lng: undefined,
+    lat: 51.0146,
+    lng: 93.8289,
   },
   {
     city: "Redding, CA",
@@ -6783,8 +6783,8 @@ export default [
   {
     city: "Rhodes",
     country: "Greece",
-    lat: undefined,
-    lng: undefined,
+    lat: 36.4359,
+    lng: 28.2173,
   },
   {
     city: "Richmond, VA",
@@ -7221,8 +7221,8 @@ export default [
   {
     city: "San Sebastian",
     country: "Spain",
-    lat: undefined,
-    lng: undefined,
+    lat: 43.312691,
+    lng: -1.993332,
   },
   {
     city: "Sanaa",
@@ -7251,8 +7251,8 @@ export default [
   {
     city: "Sandspit, Queen Charlotte Islands, BC",
     country: "Canada",
-    lat: undefined,
-    lng: undefined,
+    lat: 53.2527,
+    lng: -132.09,
   },
   {
     city: "Santa Barbara, CA",
@@ -7455,8 +7455,8 @@ export default [
   {
     city: "Seville",
     country: "Spain",
-    lat: undefined,
-    lng: undefined,
+    lat: 37.392529,
+    lng: -5.994072,
   },
   {
     city: "Shanghai",
@@ -7569,8 +7569,8 @@ export default [
   {
     city: "Sioux Lookout, ON",
     country: "Canada",
-    lat: undefined,
-    lng: undefined,
+    lat: 50.097832,
+    lng: -91.922035,
   },
   {
     city: "Sitka, AK",
@@ -7599,8 +7599,8 @@ export default [
   {
     city: "Smithers, BC",
     country: "Canada",
-    lat: undefined,
-    lng: undefined,
+    lat: 54.782356,
+    lng: -127.172073,
   },
   {
     city: "Sofia",
@@ -7635,8 +7635,8 @@ export default [
   {
     city: "Southampton",
     country: "England",
-    lat: undefined,
-    lng: undefined,
+    lat: 50.9105,
+    lng: 1.4049,
   },
   {
     city: "Split",
@@ -7719,14 +7719,14 @@ export default [
   {
     city: "Stornoway, Isle of Lewis",
     country: "Scotland",
-    lat: undefined,
-    lng: undefined,
+    lat: 58.209435,
+    lng: -6.384869,
   },
   {
     city: "Storuman",
     country: "Sweden",
-    lat: undefined,
-    lng: undefined,
+    lat: 65.0956,
+    lng: 17.1123,
   },
   {
     city: "Strasbourg",
@@ -7953,8 +7953,8 @@ export default [
   {
     city: "Teesside",
     country: "England",
-    lat: undefined,
-    lng: undefined,
+    lat: 54.5742,
+    lng: 1.235,
   },
   {
     city: "Tegucigalpa",
@@ -8043,8 +8043,8 @@ export default [
   {
     city: "Thira, Santorini Island",
     country: "Greece",
-    lat: undefined,
-    lng: undefined,
+    lat: 36.3932,
+    lng: 25.4615,
   },
   {
     city: "Thompson, MB",
@@ -8517,8 +8517,8 @@ export default [
   {
     city: "Vilhelmina",
     country: "Sweden",
-    lat: undefined,
-    lng: undefined,
+    lat: 64.6245,
+    lng: 16.6555,
   },
   {
     city: "Villahermosa",
@@ -8553,8 +8553,8 @@ export default [
   {
     city: "Vitoria",
     country: "Spain",
-    lat: undefined,
-    lng: undefined,
+    lat: 42.8532,
+    lng: 2.6732,
   },
   {
     city: "Vladivostok, Siberia",
@@ -8571,8 +8571,8 @@ export default [
   {
     city: "Wabush, Labrador, NF",
     country: "Canada",
-    lat: undefined,
-    lng: undefined,
+    lat: 52.900428,
+    lng: -66.8655291,
   },
   {
     city: "Waco, TX",
@@ -8583,8 +8583,8 @@ export default [
   {
     city: "Wagga-Wagga, N.S.W.",
     country: "Australia",
-    lat: undefined,
-    lng: undefined,
+    lat: -35.117275,
+    lng: 147.356522,
   },
   {
     city: "Wajima",

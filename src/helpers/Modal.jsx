@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react-refresh/only-export-components */
-import { forwardRef, useEffect, useImperativeHandle, useState } from "react";
+import { forwardRef, useImperativeHandle } from "react";
 import "./modal.scss";
 import Flag from "../components/Flag";
 
