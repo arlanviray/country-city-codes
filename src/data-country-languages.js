@@ -137,7 +137,7 @@ export default [
   },
   {
     country: "Bolivia",
-    languages: ["Aimar√°", "Guaran√≠", "Ket¬öua", "Spanish"],
+    languages: ["Aymara", "Chiquitano", "Guarani", "Quechua", "Spanish"],
   },
   {
     country: "Bosnia and Herzegovina",
@@ -246,7 +246,7 @@ export default [
   },
   {
     country: "Chile",
-    languages: ["Aimar√°", "Araucan", "Rapa nui", "Spanish"],
+    languages: ["Aymara", "Araucan", "Rapa nui", "Spanish"],
   },
   {
     country: "China",
@@ -507,7 +507,7 @@ export default [
   },
   {
     country: "Guatemala",
-    languages: ["Cakchiquel", "Kekch√≠", "Mam", "Quich√©", "Spanish"],
+    languages: ["Cakchiquel", "Kekchi", "Mam", "Quichi", "Spanish"],
   },
   {
     country: "Guinea",
@@ -828,18 +828,11 @@ export default [
   },
   {
     country: "Mayotte",
-    languages: ["French", "Mahor√©", "Malagasy"],
+    languages: ["French", "Mahore", "Malagasy"],
   },
   {
     country: "Mexico",
-    languages: [
-      "Mixtec",
-      "N√°huatl",
-      "Otom√≠",
-      "Spanish",
-      "Yucatec",
-      "Zapotec",
-    ],
+    languages: ["Mixtec", "Nahuatl", "Otomi", "Spanish", "Yucatec", "Zapotec"],
   },
   {
     country: "Micronesia",
@@ -1031,7 +1024,7 @@ export default [
       "Creole English",
       "Cuna",
       "Embera",
-      "Guaym√≠",
+      "Guaymi",
       "Spanish",
     ],
   },
@@ -1041,11 +1034,11 @@ export default [
   },
   {
     country: "Paraguay",
-    languages: ["German", "Guaran√≠", "Portuguese", "Spanish"],
+    languages: ["German", "Guarani", "Portuguese", "Spanish"],
   },
   {
     country: "Peru",
-    languages: ["Aimar√°", "Ket¬öua", "Spanish"],
+    languages: ["Aymara", "Ket¬öua", "Spanish"],
   },
   {
     country: "Philippines",
@@ -1334,7 +1327,7 @@ export default [
       "Ane",
       "Ewe",
       "Gurma",
-      "Kaby√©",
+      "Kabiye",
       "Kotokoli",
       "Moba",
       "Naudemba",
