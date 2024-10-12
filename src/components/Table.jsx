@@ -17,8 +17,10 @@ export default function Table({ data, handleShowModal }) {
   return (
     <tr>
       <td>
-        {iso2 && <Flag code={iso2} />}
-        {country}
+        <div>
+          {iso2 && <Flag code={iso2} />}
+          {country}
+        </div>
       </td>
       <td>
         {city}

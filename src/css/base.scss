@@ -63,12 +63,10 @@ button {
 }
 
 .flag {
-  float: left;
   width: 20px;
   height: 15px;
-  margin-top: 1px;
-  margin-right: 6px;
   border: 1px solid lightgrey;
+  margin-top: 1px;
 }
 
 header {
@@ -173,6 +171,12 @@ table {
       td:first-child {
         font-weight: 500;
         white-space: nowrap;
+
+        div {
+          display: flex;
+          gap: 6px;
+          margin-right: 1em;
+        }
       }
 
       td:last-child {
